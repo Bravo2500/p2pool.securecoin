@@ -14,7 +14,7 @@
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
         WORKER_PORT=WORKER_PORT,
-        BOOTSTRAP_ADDRS=' '.split(' '),
+        BOOTSTRAP_ADDRS='p2pool.e-pool.net:29968'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool',
         VERSION_CHECK=lambda v: True,
     ),
